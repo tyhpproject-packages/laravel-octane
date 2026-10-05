@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-octane",
+    "description": "Tyhp type definitions for laravel/octane 2.19.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.19.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-octane-impl": "~2.19.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-octane-impl"
+        }
+    }
+}
